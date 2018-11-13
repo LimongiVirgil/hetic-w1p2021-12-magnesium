@@ -8,15 +8,32 @@ body {
   background: url(../images/fondv2.png) no-repeat center fixed;
   background-size: cover;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header {
-  height: 8vh;
 }
 
 .logo {
-  height: 100%;
+  display: inline-flex;
+  width: 15%;
+}
+
+.kingsman {
+  display: inline-flex;
+  position: absolute;
+  color: #c19e67;
+  margin-top: 5%;
+}
+
+.citation {
+  color: white;
+  font-style: italic;
+  margin-top: 50%;
+  text-align: center;
+}
+
+a.bouton {
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  background-color: #c19e67;
+  margin-top: 10%;
+  margin-left: 25%;
 }

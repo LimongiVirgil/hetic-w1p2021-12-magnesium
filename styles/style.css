@@ -2,10 +2,21 @@ body {
   background-color: white;
 }
 
-h1 {
-  color: black;
+.home-container {
+  margin: 0;
+  padding: 0;
+  background: url(../images/fondv2.png) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-p {
-  color: green;
+header {
+  height: 8vh;
+}
+
+.logo {
+  height: 100%;
 }

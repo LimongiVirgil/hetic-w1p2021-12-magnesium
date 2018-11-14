@@ -1,7 +1,6 @@
 @font-face {
 	font-family: "Athelas-Regular.ttf";
     src: url('fonts/Athelas-Regular.ttf') format('ttf');
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html {
@@ -53,7 +52,18 @@ body {
   text-align: center;
   font-family: 'Athelas-Regular', sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 26px;
+}
+
+/* nom de la personne de la citation */
+.nom {
+  color: white;
+  font-style: italic;
+  margin-left: 78%;
+  margin-top: 4%;
+  font-family: 'Athelas-Regular', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 /*le bouton s'équiper*/
@@ -65,6 +75,7 @@ body {
   margin-top: 40%;
   margin-left: 28vw;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 /*section du costume*/
@@ -100,6 +111,7 @@ body {
   z-index: -1;
 }
 
+/* bouton équiper*/
 .equiper {
   display: inline-block;
   padding: 10px 30px;
@@ -112,11 +124,13 @@ body {
   text-decoration: none;
 }
 
+/*bloc du parapluie*/
 .produit2 {
   display: inline-block;
-  width: 100vw;
+  width: 100vh;
 }
 
+/* titre du parapluie */
 .titre2 {
   display: inline-block;
   color: white;
@@ -126,6 +140,7 @@ body {
   font-family: 'Athelas-Regular', sans-serif;
 }
 
+/* image du parapluie*/
 .imgparapluie {
   display: inline-block;
   width: 80%;
@@ -133,11 +148,13 @@ body {
   margin-left: 10%;
 }
 
+/*bloc des lunettes*/
 .produit3 {
   display: inline-block;
-  width: 100vw;
+  height: 100vh;
 }
 
+/* titre des lunettes */
 .titre3 {
   display: inline-block;
   color: white;
@@ -147,8 +164,37 @@ body {
   font-family: 'Athelas-Regular', sans-serif;
 }
 
+/* image des lunettes */
 .imglunette {
   display: inline-block;
   width: 80%;
   margin-left: 10%;
+  margin-top: 15%;
 }
+
+/*image article 1*/
+.article1 {
+  background: url(../images/Article\ 1.png) no-repeat center;
+  height: 50vh;
+  background-size: cover;
+  text-align: center;
+}
+
+/*image article 2*/
+.article2 {
+  background: url(../images/Article\ 2.png) no-repeat center;
+  height: 50vh;
+  background-size: cover;
+  text-align: center;
+}
+
+/* texte de l'article 1*/
+.nomarticle1, .nomarticle2 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  margin-top: 25vh;
+  font-family: 'Athelas-Regular', sans-serif;
+  font-size: 19px;
+}
+

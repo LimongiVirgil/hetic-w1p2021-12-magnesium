@@ -1,12 +1,14 @@
 html {
-  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: white;
+  background-color: black;
 }
 
-.home-container {
+/*image acceuil*/
+.home-container { 
   margin: 0;
   padding: 0;
   background: url(../images/fondv2.png) no-repeat center;
@@ -14,11 +16,13 @@ body {
   height: 100vh;
 }
 
+/*logo kingsman*/
 .logo {
   display: inline-flex;
   width: 15%;
 }
 
+/*ecriture a coté du logo*/
 .kingsman {
   display: inline-flex;
   position: absolute;
@@ -26,6 +30,7 @@ body {
   margin-top: 5%;
 }
 
+/*la citation*/
 .citation {
   color: white;
   font-style: italic;
@@ -33,33 +38,71 @@ body {
   text-align: center;
 }
 
+/*le bouton s'équiper*/
 a.bouton {
   display: inline-block;
   padding: 10px 30px;
   color: white;
   background-color: #c19e67;
   margin-top: 10%;
-  margin-left: 25%;
+  margin-left: 30%;
   border-radius: 5px;
 }
 
+/*section du costume*/
 .produit1 {
-  display: block;
-  background: url(../images/background.jpg) no-repeat  center fixed;
-  height: 100vh;
-  background-size: cover;
+  display: inline-block;
+  width: 100vw;
 }
 
+/*l'image du costume*/
 .costume {
   display: inline-block;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
+/*titre du produit costume*/
 .kingsuit {
   display: inline-block;
   color: white;
   font-size: 25px;
-  margin-top: 10%;
-  align-items: center;
+  margin-left: 35%;
+}
+
+.produit2 {
+  display: inline-block;
+  width: 100vw;
+}
+
+.titre2 {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  margin-left: 35%;
+  margin-top: 20%;
+}
+
+.imgparapluie {
+  display: inline-block;
+  width: 100%;
+  margin-top: 15%;
+}
+
+.produit3 {
+  display: inline-block;
+  width: 100vw;
+}
+
+.titre3 {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  margin-left: 35%;
+  margin-top: 20%;
+}
+
+.imglunette {
+  display: inline-block;
+  width: 100%;
 }

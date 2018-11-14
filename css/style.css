@@ -47,13 +47,13 @@ body {
 }
 
 /*le bouton s'équiper*/
-a.bouton {
+.bouton {
   display: inline-block;
   padding: 10px 30px;
   color: white;
   background-color: #c19e67;
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 28vw;
   border-radius: 5px;
 }
 
@@ -67,7 +67,7 @@ a.bouton {
 .costume {
   display: inline-block;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 1%;
 }
 
 /*titre du produit costume*/
@@ -76,16 +76,27 @@ a.bouton {
   color: white;
   font-size: 25px;
   margin-left: 35%;
+  margin-top: 4vh;
 }
 
 .rectangle {
-  position: absolute;
-  top: 545px;
-  left: 160px;
+  position: relative;
+  top: -2vh;
+  left: 50%;
   width: 70px;
   background: #c19e67;
   height: 18px;
   z-index: -1;
+}
+
+.equiper {
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  background-color: #c19e67;
+  margin-top: 10%;
+  margin-left: 27vw;
+  border-radius: 5px;
 }
 
 .produit2 {

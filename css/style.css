@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Athelas-Regular.ttf";
+    src: url('fonts/Athelas-Regular.ttf') format('ttf'),
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -44,6 +49,9 @@ body {
   font-style: italic;
   margin-top: 50%;
   text-align: center;
+  font-family: 'Athelas-Regular', sans-serif;
+  font-weight: bold;
+  font-size: 10%;
 }
 
 /*le bouton s'équiper*/
@@ -77,6 +85,7 @@ body {
   font-size: 25px;
   margin-left: 35%;
   margin-top: 4vh;
+  font-family: 'Athelas-Regular', sans-serif;
 }
 
 .rectangle {
@@ -92,11 +101,13 @@ body {
 .equiper {
   display: inline-block;
   padding: 10px 30px;
-  color: white;
-  background-color: #c19e67;
+  color: #c19e67;
+  background-color: black;
   margin-top: 10%;
   margin-left: 27vw;
   border-radius: 5px;
+  border: 2px solid #c19e67;
+  text-decoration: none;
 }
 
 .produit2 {
@@ -109,14 +120,15 @@ body {
   color: white;
   font-size: 25px;
   margin-left: 35%;
-  margin-top: 20%;
+  margin-top: 30%;
+  font-family: 'Athelas-Regular', sans-serif;
 }
 
 .imgparapluie {
   display: inline-block;
-  width: 90%;
+  width: 80%;
   margin-top: 15%;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .produit3 {
@@ -129,11 +141,12 @@ body {
   color: white;
   font-size: 25px;
   margin-left: 35%;
-  margin-top: 20%;
+  margin-top: 30%;
+  font-family: 'Athelas-Regular', sans-serif;
 }
 
 .imglunette {
   display: inline-block;
-  width: 90%;
-  margin-left: 5%;
+  width: 80%;
+  margin-left: 10%;
 }

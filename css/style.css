@@ -7,6 +7,14 @@ body {
   background-color: black;
 }
 
+.black-bg{
+  background:linear-gradient( rgba(0, 0, 0, 0),#000);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 60vh;
+}
+
 /*image acceuil*/
 .home-container { 
   margin: 0;
@@ -70,6 +78,16 @@ a.bouton {
   margin-left: 35%;
 }
 
+.rectangle {
+  position: absolute;
+  top: 545px;
+  left: 160px;
+  width: 70px;
+  background: #c19e67;
+  height: 18px;
+  z-index: -1;
+}
+
 .produit2 {
   display: inline-block;
   width: 100vw;
@@ -85,8 +103,9 @@ a.bouton {
 
 .imgparapluie {
   display: inline-block;
-  width: 100%;
+  width: 90%;
   margin-top: 15%;
+  margin-left: 5%;
 }
 
 .produit3 {
@@ -104,5 +123,6 @@ a.bouton {
 
 .imglunette {
   display: inline-block;
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
 }

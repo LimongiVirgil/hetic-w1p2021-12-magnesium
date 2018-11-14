@@ -1,6 +1,7 @@
 @font-face {
 	font-family: "Athelas-Regular.ttf";
-    src: url('fonts/Athelas-Regular.ttf') format('ttf'),
+    src: url('fonts/Athelas-Regular.ttf') format('ttf');
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html {
@@ -41,6 +42,7 @@ body {
   position: absolute;
   color: #c19e67;
   margin-top: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*la citation*/
@@ -51,7 +53,7 @@ body {
   text-align: center;
   font-family: 'Athelas-Regular', sans-serif;
   font-weight: bold;
-  font-size: 10%;
+  font-size: 16px;
 }
 
 /*le bouton s'équiper*/
@@ -60,7 +62,7 @@ body {
   padding: 10px 30px;
   color: white;
   background-color: #c19e67;
-  margin-top: 10%;
+  margin-top: 40%;
   margin-left: 28vw;
   border-radius: 5px;
 }

@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: white;
 }
@@ -5,7 +9,7 @@ body {
 .home-container {
   margin: 0;
   padding: 0;
-  background: url(../images/fondv2.png) no-repeat center fixed;
+  background: url(../images/fondv2.png) no-repeat center;
   background-size: cover;
   height: 100vh;
 }
@@ -36,4 +40,26 @@ a.bouton {
   background-color: #c19e67;
   margin-top: 10%;
   margin-left: 25%;
+  border-radius: 5px;
+}
+
+.produit1 {
+  display: block;
+  background: url(../images/background.jpg) no-repeat  center fixed;
+  height: 100vh;
+  background-size: cover;
+}
+
+.costume {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.kingsuit {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  margin-top: 10%;
+  align-items: center;
 }

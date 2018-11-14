@@ -3,22 +3,17 @@
     src: url('fonts/Athelas-Regular.ttf') format('ttf');
 }
 
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: black;
 }
 
-.black-bg{
+/*.black-bg{
   background:linear-gradient( rgba(0, 0, 0, 0),#000);
   width: 100%;
   height: 100vh;
   position: fixed;
-  top: 60vh;
-}
+  top: 50vh;
+} */
 
 /*image acceuil*/
 .home-container { 
@@ -26,7 +21,8 @@ body {
   padding: 0;
   background: url(../images/fondv2.png) no-repeat center;
   background-size: cover;
-  height: 100vh;
+  background-position: relative;
+  height: 100%;
 }
 
 /*logo kingsman*/
@@ -72,8 +68,8 @@ body {
   padding: 10px 30px;
   color: white;
   background-color: #c19e67;
-  margin-top: 40%;
-  margin-left: 28vw;
+  margin-top: 30%;
+  margin-left: 90px;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -82,6 +78,7 @@ body {
 .produit1 {
   display: inline-block;
   width: 100vw;
+  margin-top: 100px
 }
 
 /*l'image du costume*/
@@ -178,6 +175,7 @@ body {
   height: 50vh;
   background-size: cover;
   text-align: center;
+  margin-top: 100px;
 }
 
 /*image article 2*/
@@ -198,3 +196,205 @@ body {
   font-size: 19px;
 }
 
+footer {
+  display: inline-block;
+  height: 10vh;
+  background-color: white;
+
+}
+
+.facebook {
+  width: 10%;
+  margin-left: 65%;
+  margin-top: 3%;
+}
+
+.twitter {
+  width: 10%;
+}
+
+.instagram {
+  width: 11%;
+}
+
+@media (min-width: 1366px) {
+  body {
+    background-color: black;
+  }
+  
+  /*image acceuil*/
+.home-container { 
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: relative;
+  height: 100vh;
+}
+
+.logo {
+  display: inline-flex;
+  width: 7%;
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
+
+  /*.black-bg{
+    background:linear-gradient( rgba(0, 0, 0, 0),#000);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50vh;
+  } */
+  
+  /*ecriture a coté du logo*/
+  .kingsman {
+    color: #c19e67;
+    margin-top: 5%;
+    font-size: 30px;
+    position: fixed;
+  }
+  
+  /*la citation*/
+  .citation {
+    margin-top: 10%;
+    font-size: 60px;
+    text-decoration: none;
+  }
+  
+  /* nom de la personne de la citation */
+  .nom {
+    margin-left: 70%;
+    margin-top: 3%;
+    font-size: 30px;
+  }
+  
+  /*le bouton s'équiper*/
+  .bouton {
+    padding: 20px 40px;
+    margin-top: 6%;
+    margin-left: 613px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /*section du costume*/
+  .produit1 {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /*l'image du costume*/
+  .costume {
+    width: 40vw;
+    margin-top: 90px;
+    margin-left: 150px;
+  }
+  
+  /*titre du produit costume*/
+  .kingsuit {
+    position: absolute;
+    float: right;
+    font-size: 80px;
+    margin-left: 880px;
+    margin-top: 300px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .rectangle {
+    position: relative;
+    top: 350px;
+    left: 75%;
+    width: 240px;
+    background: #c19e67;
+    height: 40px;
+    z-index: -1;
+  }
+  
+  /* bouton équiper*/
+  .equiper {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border: 2px solid #c19e67;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /*bloc du parapluie*/
+  .produit2 {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* titre du parapluie */
+  .titre2 {
+    position: absolute;
+    font-size: 80px;
+    margin-left: 880px;
+    margin-top: 300px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* image du parapluie*/
+  .imgparapluie {
+    display: inline-block;
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 150px;
+  }
+  
+  /*bloc des lunettes*/
+  .produit3 {
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* titre des lunettes */
+  .titre3 {
+    position: absolute;
+    font-size: 80px;
+    margin-left: 880px;
+    margin-top: 300px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* image des lunettes */
+  .imglunette {
+    display: inline-block;
+    width: 40%;
+    margin-left: 90px;
+    margin-top: 150px;
+  }
+  
+  /* texte de l'article 1*/
+  .nomarticle1, .nomarticle2 {
+    font-size: 50px;
+  }
+  
+  footer {
+    height: 12vh;
+  }
+  
+  .facebook {
+    width: 5%;
+    margin-left: 75%;
+    margin-top: 1%;
+  }
+  
+  .twitter {
+    width: 5%;
+  }
+  
+  .instagram {
+    width: 5%;
+  }
+}

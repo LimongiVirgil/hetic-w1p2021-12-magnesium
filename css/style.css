@@ -7,14 +7,6 @@ body {
   background-color: black;
 }
 
-/*.black-bg{
-  background:linear-gradient( rgba(0, 0, 0, 0),#000);
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  top: 50vh;
-} */
-
 /*image acceuil*/
 .home-container { 
   margin: 0;
@@ -45,6 +37,7 @@ body {
   color: white;
   font-style: italic;
   margin-top: 50%;
+  max-width: 1200px;
   text-align: center;
   font-family: 'Athelas-Regular', sans-serif;
   font-weight: bold;
@@ -187,7 +180,7 @@ body {
 }
 
 /* texte de l'article 1*/
-.nomarticle1, .nomarticle2 {
+.nom-article1, .nom-article2 {
   position: relative;
   display: inline-block;
   color: white;
@@ -223,29 +216,20 @@ footer {
   }
   
   /*image acceuil*/
-.home-container { 
+  .home-container { 
   margin: 0;
   padding: 0;
   background-size: cover;
   background-position: relative;
   height: 100vh;
-}
+  }
 
-.logo {
+  .logo {
   display: inline-flex;
   width: 7%;
   margin-top: 50px;
   margin-left: 50px;
-
-}
-
-  /*.black-bg{
-    background:linear-gradient( rgba(0, 0, 0, 0),#000);
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 50vh;
-  } */
+  }
   
   /*ecriture a coté du logo*/
   .kingsman {
@@ -257,9 +241,11 @@ footer {
   
   /*la citation*/
   .citation {
-    margin-top: 10%;
-    font-size: 60px;
+    margin-top: 15%;
+    font-size: 50px;
     text-decoration: none;
+    max-width: 1200px;
+    margin-left: 90px;
   }
   
   /* nom de la personne de la citation */
@@ -272,7 +258,7 @@ footer {
   /*le bouton s'équiper*/
   .bouton {
     padding: 20px 40px;
-    margin-top: 6%;
+    margin-top: 7%;
     margin-left: 613px;
     border-radius: 5px;
     text-decoration: none;
@@ -313,6 +299,16 @@ footer {
     height: 40px;
     z-index: -1;
   }
+
+  .grand-rectangle1 {
+    position: relative;
+    top: 700px;
+    left: 10%;
+    width: 360px;
+    background: #c19e67;
+    height: 100px;
+    z-index: -1;
+  }
   
   /* bouton équiper*/
   .equiper {
@@ -341,10 +337,19 @@ footer {
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .grand-rectangle2 {
+    position: relative;
+    top: 200px;
+    left: 10%;
+    width: 130px;
+    background: #c19e67;
+    height: 400px;
+    z-index: -2;
+  }
   
   /* image du parapluie*/
   .imgparapluie {
-    display: inline-block;
     width: 40%;
     margin-top: 90px;
     margin-left: 150px;
@@ -376,7 +381,7 @@ footer {
   }
   
   /* texte de l'article 1*/
-  .nomarticle1, .nomarticle2 {
+  .nom-article1, .nom-article2 {
     font-size: 50px;
   }
   

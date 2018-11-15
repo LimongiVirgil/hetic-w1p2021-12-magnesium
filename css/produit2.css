@@ -57,13 +57,11 @@ h2 {
   margin-right: 25px;
 }
 
-#suite
-{
-margin:0;
-display:none;
-color: white;
-font-size: 40px;
-
+#suite {
+  margin:0;
+  display:none;
+  color: white;
+  font-size: 40px;
 }
 
 .parapluie { 
@@ -71,7 +69,6 @@ font-size: 40px;
   justify-content: center;
   align-items: center;
   width: 80%;
-  background-color: black;
   margin-left: 100px;
   margin-bottom: 50px;
 }
@@ -86,7 +83,7 @@ font-size: 40px;
 
 .deroulant {
   color: #cbad64;
-  text-decoration: none;
+  text-decoration: underline black;
   font-size: 50px;
   text-align: center;
   margin-left: 50px;
@@ -95,39 +92,36 @@ font-size: 40px;
 }
 
 @media (min-width: 1366px) {
-  
-header {
-display: flex;
-height: 17vh;
+  header {
+    display: flex;
+    height: 17vh;
+  }
 
-}
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-left: 400px;
+    margin-top: 25px;
+    display: inline-block;
+    position: relative;
+  }
 
-h1 {
-  text-align: center;
-  color: white;
-  font-size: 50px;
-  margin-left: 400px;
-  margin-top: 25px;
-  display: inline-block;
-  position: relative;
-}
-
-.rectangle {
-  width: 150px;
-  height: 25px;
-  background-color: #cbad64;
-  position: absolute;
-  margin-left: 650px;
-  margin-top: 55px;
- 
-}
+  .rectangle {
+    width: 150px;
+    height: 25px;
+    background-color: #cbad64;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 55px;
+  }
 
  .phrase1 {
-  font-size: 29px;
+    font-size: 29px;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px; 
- }
+  }   
 
   p {
     font-size: 16px;
@@ -163,7 +157,7 @@ h1 {
 
   .deroulant {
     color: #cbad64;
-    text-decoration: none;
+    text-decoration: underline black;
     font-size: 25px;
     text-align: center;
     margin-left: 50px;

@@ -221,21 +221,12 @@ footer {
   display: inline-block;
   height: 10vh;
   background-color: white;
-
+  height: 12vh;
+  width: 100vw;
 }
 
-.facebook {
-  width: 10%;
-  margin-left: 65%;
-  margin-top: 3%;
-}
-
-.twitter {
-  width: 10%;
-}
-
-.instagram {
-  width: 11%;
+.hetic {
+  margin-top: 15px;
 }
 
 @media (min-width: 1366px) {
@@ -329,11 +320,11 @@ footer {
 
   .big-rectangle1 {
     position: relative;
-    top: 600px;
+    top: 550px;
     left: 10%;
-    width: 360px;
+    width: 130px;
     background: #c19e67;
-    height: 100px;
+    height: 400px;
     z-index: -1;
   }
   
@@ -423,23 +414,5 @@ footer {
   /* texte de l'article 1*/
   .name-article1, .name-article2 {
     font-size: 50px;
-  }
-  
-  footer {
-    height: 12vh;
-  }
-  
-  .facebook {
-    width: 5%;
-    margin-left: 75%;
-    margin-top: 1%;
-  }
-  
-  .twitter {
-    width: 5%;
-  }
-  
-  .instagram {
-    width: 5%;
   }
 }
